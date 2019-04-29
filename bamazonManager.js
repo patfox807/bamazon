@@ -54,7 +54,7 @@ function viewSales() {
 }
 
 function viewLowInventory() {
-    connection.query("SELECT * FROM products having stock_quantity <= 15", function (err, res) {
+    connection.query("SELECT * FROM products having stock_quantity <= 5", function (err, res) {
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
             console.log(res[i].product_name, res[i].stock_quantity);

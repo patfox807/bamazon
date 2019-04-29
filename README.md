@@ -2,7 +2,7 @@
 
 ## OVERVIEW 
 A Node.js & MySQL command line Amazon-like storefront app that takes in customers orders and depletes stock from the stores Inventory.
-***<link to video of how it works>***
+Video on the app works ---> https://cl.ly/c2f099a1eddc
 
 ## TECHNOLOGIES 
 Node.js
@@ -44,4 +44,5 @@ If a manager selects View Low Inventory, then it should list all items with an i
 If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
 If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
 
-## Link to Github Io
+## Link to deployed site
+https://patfox807.github.io/bamazon/
