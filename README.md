@@ -5,10 +5,10 @@ A Node.js & MySQL command line Amazon-like storefront app that takes in customer
 Video on the app works ---> https://cl.ly/c2f099a1eddc
 
 ## TECHNOLOGIES 
-*Node.js
-*Inquirer
-*NPM Install
-*MySQL
+* Node.js
+* Inquirer
+* NPM Install
+* MySQL
 
 ## Instructions
 Challenge #1: Customer View (Minimum Requirement)
@@ -18,15 +18,15 @@ Then create a Table inside of that database called products.
 
 The products table should have each of the following columns:
 
-item_id (unique id for each product)
+* item_id (unique id for each product)
 
-product_name (Name of product)
+* product_name (Name of product)
 
-department_name
+* department_name
 
-price (cost to customer)
+* price (cost to customer)
 
-stock_quantity (how much of the product is available in stores)
+* stock_quantity (how much of the product is available in stores)
 
 Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
@@ -57,10 +57,10 @@ Create a new Node application called bamazonManager.js. Running this application
 
 List a set of menu options:
 
-*View Products for Sale
-*View Low Inventory
-*Add to Inventory
-*Add New Product
+* View Products for Sale
+* View Low Inventory
+* Add to Inventory
+* Add New Product
 
 If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities.
 
